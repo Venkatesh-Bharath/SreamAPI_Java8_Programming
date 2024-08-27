@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.Map.Entry;
 public class StreamDay_9 {
     public static void main(String[] args) {
 		 Scanner sc=new Scanner(System.in);
