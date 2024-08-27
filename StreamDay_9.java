@@ -3,7 +3,7 @@ public class StreamDay_9 {
     public static void main(String[] args) {
 		 Scanner sc=new Scanner(System.in);
 		 String str=sc.next();//trendingtechnology
-     Character first=str.chars().mapToObj(c->(char)c)
+    		 Character first=str.chars().mapToObj(c->(char)c)
 				 .collect(LinkedHashMap<Character,Integer>::new,(map,c)->map.put(c,map.getOrDefault(c,0)+1),Map::putAll)
 				 .entrySet()
 				 .stream()
